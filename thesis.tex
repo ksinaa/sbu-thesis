@@ -5,10 +5,10 @@
 \documentclass[oneside,openany,msc]{SBU-Thesis}
 
 % برای وارد کردن بسته‌هایی که نیاز است قبل از bidi وارد شوند، آنها را در فایل confix.tex قرار دهید. سایر بسته‌های مورد نیاز را در اینجا می‌توانید وارد کنید:
+
 \begin{document}
 	%عنوان پایان‌نامه
-	\title{بررسی روش های پیشبینی روند تخصص افراد از طریق تحلیل داده های سایت overflow Stack}
-	
+	\title{راه‌کار‌ی مبتنی بر یادگیری ماشین برای پیش‌بینی مهارت‌های افراد در آینده در وبسایت‌های پرسش‌‌وپاسخ اجتماعی }	
 	%رشته
 	\subject{مهندسی کامپیوتر}
 	
@@ -17,7 +17,7 @@
 	
 	%نام
 	\name{سینا}
-	
+
 	%نام خانوادگی
 	\surname{محمدی}
 	
@@ -31,7 +31,7 @@
 %	\firstadvisor{دکتر محمود نشاطی}
 
 %تاریخ انجام پایان‌نامه
-	\thesisdate{تابستان ۱۴۰۳}
+	\thesisdate{تابستان ۱۴۰۴}
 	
 	%نام دانشکده
 	\faculty{دانشکده مهندسی و علوم کامپیوتر}
@@ -51,19 +51,17 @@
 	%مقادیر انگلیسی برای صفحه آخر
 	\latinuniversity{Shahid Beheshti University}
 	\latinfaculty{Faculty of Computer Science \& Engineering}
-	\latintitle{feature forcast methods in experties retrival}
-	\latinname{sina}
-	\latinsurname{mohammadi}
-	\latinthesisdate{2024}
+	\latintitle{Semantic Matching Methods on Object Retrieval}
+	\latinname{Arash}
+	\latinsurname{Dargahi Nobari}
+	\latinthesisdate{2019}
 	\firstlatinsupervisor{Dr. Mahmood Neshati}
 	%	\secondlatinsupervisor{Dr. Mahmood Neshati}
 	%	\firstlatinadvisor{Dr. Mahmood Neshati}
 	% چکیده به فارسی
-	\fa-abstract{
-		بازیابی تخصص یکی از موضوعات پژوهشی در حوزه بازیابی اطلاعات است که به هدف شناسایی نیروی متخصص و تحلیل داده‌های کلان که اغلب به‌صورت متون غیرساختاریافته هستند، کمک می‌کند. این فرآیند به سازمان‌ها و شرکت‌ها امکان می‌دهد تا نیروی متخصص مورد نیاز خود را به‌سهولت بیابند. به‌طور کلی، مباحث مربوط به بازیابی تخصص به چند دسته تقسیم می‌شوند. دسته اول شامل استخراج داده‌ها و آماده‌سازی آن‌هاست که معمولاً این داده‌ها برای اهداف تحقیقاتی از انجمن‌های آنلاین استخراج می‌شوند. دسته دوم به دسته‌بندی افراد متخصص، امتیازدهی به آن‌ها و شناسایی بهترین کاندیداها از بین موجود پرداخته می‌شود. در نهایت، دسته سوم شامل انجام تحلیل‌های دقیق‌تری بر روی داده‌های استخراج شده از دسته دوم با استفاده از متدهای علوم داده است. در این پژوهش، با تمرکز بر دسته سوم، داده‌های استخراج شده از کاربران بر اساس زمان دسته‌بندی شده و با استفاده از روش‌های آماری و احتمالاتی، پیش‌بینی‌هایی درباره تخصص‌هایی که یک متخصص ممکن است در آینده کسب کند ارائه می‌شود. این پیش‌بینی‌ها به سازمان‌ها و شرکت‌ها کمک می‌کند تا بهترین کاندیداها را بر اساس برنامه‌های آینده شغلی آن‌ها انتخاب کرده و با خطای کمتری در استخدام نیروی متخصص مواجه شوند.
-	}
+	\fa-abstract{چکیده در اینجا قرار میگیرد}
 	%کلمات کلیدی:
-	\keywords{بازیابی تخصص، بازیابی اطلاعات، تحلیل زمانی}
+	\keywords{}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	
@@ -88,7 +86,6 @@
 \include{body}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	
 
 % مراجع
 \newpage
@@ -104,24 +101,18 @@
 %\thispagestyle{fancy}
 \addcontentsline{toc}{chapter}{واژه‌نامه  انگلیسی به  فارسی}
 \noindent
-\englishgloss{map}{میانگین دقت ترکیبی}
-\englishgloss{Precision}{دقت}
-\englishgloss{recall}{یادآوری}
+\englishgloss{Word}{کلمه}
+\englishgloss{Word 2}{کلمه ۲}
+\englishgloss{Word 3}{کلمه ۳}
 
 
 \chapter*{واژه‌نامه فارسی به انگلیسی}\markboth{واژه‌نامه فارسی به انگلیسی}{واژه‌نامه فارسی به انگلیسی}
 \addcontentsline{toc}{chapter}{واژه‌نامه فارسی به انگلیسی}
 %\thispagestyle{fancy}
 \noindent
-\persiangloss{خوشه بندی}{clustering}
-\persiangloss{بازیابی اطلاعات}{information retrival}
-\persiangloss{مدل های احتمالاتی}{probabilistic model}
-\persiangloss{یادگیری ماشین}{mashin learning}
-\persiangloss{متخصص}{experties}
-\persiangloss{پیشبینی آینده}{feature forcast}
-\persiangloss{سری های زمانی}{time series}
-\persiangloss{استخراج داده}{data extraction}
-\persiangloss{نمایه}{profile}
+\persiangloss{کلمه ۱}{word 1}
+\persiangloss{کلمه ۲}{word 2}
+\persiangloss{کلمه ۳}{word 3}
 
 \baselineskip=1cm
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -130,13 +121,13 @@
 % چکیده به انگلیسی
 \en-abstract
 {
-	Expertise retrieval is a research topic within the field of information retrieval that aims to identify specialists and analyze large-scale data, which often appears in the form of unstructured texts. This process helps organizations and companies easily find the specialized workforce they need. Generally, expertise retrieval can be divided into several categories. The first category involves data extraction and preparation, where data is typically extracted from online forums for research purposes. The second category includes the classification of specialists, scoring them, and identifying the best candidates from the available pool. Finally, the third category involves performing more detailed analyses on the data extracted in the second category using data science methods. In this study, with a focus on the third category, the extracted user data is categorized based on time, and by applying a series of statistical and probabilistic methods, predictions are made about the potential expertise a specialist may acquire in the future. These predictions assist organizations and companies in selecting the best candidates based on their future career plans and minimizing errors in hiring specialized personnel.
+	This is Abstract in English.
 }
 
 % کلمات کلیدی انگلیسی 
 \latinkeywords
 {
-	Information retrival, experties retrival, time series
+	Word1, Word2, Word3
 }
 
 \latinAbstractPage % ساخت صفحه چکیده به انگلیسی
