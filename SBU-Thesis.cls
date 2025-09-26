@@ -302,10 +302,10 @@ Persian thesis document class in XeLaTeX for Shahid Beheshti University projects
 		\newcommand{\amp}{&}
 		\begin{tabular}{ p{4.5cm} p{7cm} p{3.5cm}}
    		 \ifdefined\@davaranSupervisor
-		 		\arabic{dc}- استاد راهنما اول: \amp \@davaranSupervisor \amp امضا \\ \addtocounter{dc}{1}
+		 		\arabic{dc}- استاد راهنما: \amp \@davaranSupervisor \amp امضا \\ \addtocounter{dc}{1}
 		 \fi
 		 \ifdefined\@davaranSecondSupervisor
-			 \arabic{dc}- استاد راهنما دوم: \amp \@davaranSecondSupervisor \amp امضا \\ \addtocounter{dc}{1}
+			 \arabic{dc}- استاد داور (داخلی): \amp \@davaranSecondSupervisor \amp امضا \\ \addtocounter{dc}{1}
 		 \fi
 		 \ifdefined\@davaranAdvisor
 		    	\arabic{dc}- استاد مشاور: \amp \@davaranAdvisor \amp امضا \\ \addtocounter{dc}{1}
